@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27986099246DF6E100770A2F /* test02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2798607C246DF6E100770A2F /* test02.jpg */; };
+		2798609A246DF6E100770A2F /* test03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2798607D246DF6E100770A2F /* test03.jpg */; };
+		2798609B246DF6E100770A2F /* test07.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2798607E246DF6E100770A2F /* test07.jpg */; };
+		2798609C246DF6E100770A2F /* test06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2798607F246DF6E100770A2F /* test06.jpg */; };
+		2798609D246DF6E100770A2F /* test04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27986080246DF6E100770A2F /* test04.jpg */; };
+		2798609E246DF6E100770A2F /* test10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27986081246DF6E100770A2F /* test10.jpg */; };
+		2798609F246DF6E100770A2F /* test05.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27986082246DF6E100770A2F /* test05.jpg */; };
+		279860A0246DF6E100770A2F /* test08.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27986083246DF6E100770A2F /* test08.jpg */; };
+		279860A1246DF6E100770A2F /* test09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 27986084246DF6E100770A2F /* test09.jpg */; };
+		279860A3246DF88F00770A2F /* test01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 279860A2246DF88F00770A2F /* test01.jpg */; };
+		279860AB246E9A7A00770A2F /* Predictor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279860AA246E9A7A00770A2F /* Predictor.swift */; };
+		27E9D5FC246D946000A384DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E9D5FB246D946000A384DE /* AppDelegate.swift */; };
+		27E9D5FE246D946000A384DE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E9D5FD246D946000A384DE /* SceneDelegate.swift */; };
+		27E9D600246D946000A384DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E9D5FF246D946000A384DE /* ViewController.swift */; };
+		27E9D603246D946000A384DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E9D601246D946000A384DE /* Main.storyboard */; };
+		27E9D605246D946500A384DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E9D604246D946500A384DE /* Assets.xcassets */; };
+		27E9D608246D946500A384DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E9D606246D946500A384DE /* LaunchScreen.storyboard */; };
+		4549EA602AEDE9B600209CA4 /* mobileone_s2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4549EA5F2AEDE9B600209CA4 /* mobileone_s2.mlmodel */; };
+		454E06DA2AFD7518002B036B /* GCDWebServer in Frameworks */ = {isa = PBXBuildFile; productRef = 454E06D92AFD7518002B036B /* GCDWebServer */; };
+		454E06DC2B05EB23002B036B /* FasterNet-S.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 454E06DB2B05EB23002B036B /* FasterNet-S.mlmodel */; };
+		454E06DE2B05EC68002B036B /* FasterNet-M.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 454E06DD2B05EC68002B036B /* FasterNet-M.mlmodel */; };
+		454E06E02B05EC6D002B036B /* FasterNet-L.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 454E06DF2B05EC6D002B036B /* FasterNet-L.mlmodel */; };
+		454E06E22B05EE0C002B036B /* FasterNet-T0.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 454E06E12B05EE0C002B036B /* FasterNet-T0.mlmodel */; };
+		454E06E42B05EE0F002B036B /* FasterNet-T1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 454E06E32B05EE0F002B036B /* FasterNet-T1.mlmodel */; };
+		454E06E62B05EE13002B036B /* FasterNet-T2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 454E06E52B05EE13002B036B /* FasterNet-T2.mlmodel */; };
+		454E06E82B05F13F002B036B /* SwiftFormer_XS.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 454E06E72B05F13F002B036B /* SwiftFormer_XS.mlmodel */; };
+		454E06EA2B05F144002B036B /* SwiftFormer_S.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 454E06E92B05F144002B036B /* SwiftFormer_S.mlmodel */; };
+		454E06EC2B05F148002B036B /* SwiftFormer_L3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 454E06EB2B05F148002B036B /* SwiftFormer_L3.mlmodel */; };
+		454E06EE2B05F14F002B036B /* SwiftFormer_L1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 454E06ED2B05F14F002B036B /* SwiftFormer_L1.mlmodel */; };
+		4583D2092AEF2DEC00D0DDBA /* nextvit_base_224x224.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2082AEF2DEC00D0DDBA /* nextvit_base_224x224.mlmodel */; };
+		4583D20B2AF049CC00D0DDBA /* nextvit_small_224x224.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D20A2AF049CB00D0DDBA /* nextvit_small_224x224.mlmodel */; };
+		4583D20D2AF049D400D0DDBA /* nextvit_large_224x224.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D20C2AF049D400D0DDBA /* nextvit_large_224x224.mlmodel */; };
+		4583D20F2AF049DE00D0DDBA /* mobileone_s0.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D20E2AF049DE00D0DDBA /* mobileone_s0.mlmodel */; };
+		4583D2112AF049E200D0DDBA /* mobileone_s1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2102AF049E200D0DDBA /* mobileone_s1.mlmodel */; };
+		4583D2132AF049EF00D0DDBA /* mobileone_s3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2122AF049EF00D0DDBA /* mobileone_s3.mlmodel */; };
+		4583D2152AF04A1200D0DDBA /* efficientformer_l1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2142AF04A1200D0DDBA /* efficientformer_l1.mlmodel */; };
+		4583D2172AF04A1B00D0DDBA /* efficientformer_l3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2162AF04A1B00D0DDBA /* efficientformer_l3.mlmodel */; };
+		4583D2192AF04A1F00D0DDBA /* efficientformer_l7.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2182AF04A1F00D0DDBA /* efficientformer_l7.mlmodel */; };
+		4583D21B2AF04A3C00D0DDBA /* efficientformerv2_s0.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D21A2AF04A3C00D0DDBA /* efficientformerv2_s0.mlmodel */; };
+		4583D21D2AF04A4300D0DDBA /* efficientformerv2_s1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D21C2AF04A4300D0DDBA /* efficientformerv2_s1.mlmodel */; };
+		4583D21F2AF04A4900D0DDBA /* efficientformerv2_s2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D21E2AF04A4900D0DDBA /* efficientformerv2_s2.mlmodel */; };
+		4583D2212AF04A4D00D0DDBA /* efficientformerv2_l.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2202AF04A4D00D0DDBA /* efficientformerv2_l.mlmodel */; };
+		4583D2232AF04A6200D0DDBA /* efficientnet-b0.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2222AF04A6200D0DDBA /* efficientnet-b0.mlmodel */; };
+		4583D2252AF04A6C00D0DDBA /* efficientnet-b1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2242AF04A6C00D0DDBA /* efficientnet-b1.mlmodel */; };
+		4583D2272AF04A7000D0DDBA /* efficientnet-b2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2262AF04A7000D0DDBA /* efficientnet-b2.mlmodel */; };
+		4583D2292AF04A7500D0DDBA /* efficientnet-b3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2282AF04A7500D0DDBA /* efficientnet-b3.mlmodel */; };
+		4583D22B2AF04A7900D0DDBA /* efficientnet-b4.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D22A2AF04A7900D0DDBA /* efficientnet-b4.mlmodel */; };
+		4583D22D2AF04A7C00D0DDBA /* efficientnet-b5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D22C2AF04A7C00D0DDBA /* efficientnet-b5.mlmodel */; };
+		4583D22F2AF04A8000D0DDBA /* efficientnet-b6.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D22E2AF04A8000D0DDBA /* efficientnet-b6.mlmodel */; };
+		4583D2312AF04A9700D0DDBA /* efficientnet-b7.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2302AF04A9700D0DDBA /* efficientnet-b7.mlmodel */; };
+		4583D2332AF04AB200D0DDBA /* efficientnet_v2_l.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2322AF04AB200D0DDBA /* efficientnet_v2_l.mlmodel */; };
+		4583D2352AF04AD000D0DDBA /* efficientnet_v2_m.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2342AF04AD000D0DDBA /* efficientnet_v2_m.mlmodel */; };
+		4583D2372AF04AD600D0DDBA /* efficientnet_v2_s.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2362AF04AD600D0DDBA /* efficientnet_v2_s.mlmodel */; };
+		4583D2392AF04AF000D0DDBA /* mobileone_s4.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2382AF04AF000D0DDBA /* mobileone_s4.mlmodel */; };
+		4583D23B2AF04B0800D0DDBA /* mobilenet_v1.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D23A2AF04B0800D0DDBA /* mobilenet_v1.mlmodel */; };
+		4583D23D2AF04B2100D0DDBA /* mobilenet_v2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D23C2AF04B2100D0DDBA /* mobilenet_v2.mlmodel */; };
+		4583D23F2AF04B5000D0DDBA /* mobilenet_v3_small.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D23E2AF04B5000D0DDBA /* mobilenet_v3_small.mlmodel */; };
+		4583D2412AF04B5500D0DDBA /* mobilenet_v3_large.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2402AF04B5500D0DDBA /* mobilenet_v3_large.mlmodel */; };
+		4583D2432AF04B6E00D0DDBA /* Mobilevit-s.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2422AF04B6E00D0DDBA /* Mobilevit-s.mlmodel */; };
+		4583D2452AF04B7300D0DDBA /* Mobilevit-xs.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2442AF04B7300D0DDBA /* Mobilevit-xs.mlmodel */; };
+		4583D2472AF04B7900D0DDBA /* Mobilevit-xxs.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2462AF04B7900D0DDBA /* Mobilevit-xxs.mlmodel */; };
+		4583D2492AF04B8000D0DDBA /* Mobilevit_v2_050.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D2482AF04B8000D0DDBA /* Mobilevit_v2_050.mlmodel */; };
+		4583D24B2AF04B8500D0DDBA /* Mobilevit_v2_100.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D24A2AF04B8500D0DDBA /* Mobilevit_v2_100.mlmodel */; };
+		4583D24D2AF04B8900D0DDBA /* Mobilevit_v2_150.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4583D24C2AF04B8900D0DDBA /* Mobilevit_v2_150.mlmodel */; };
+		45F1DF2B29FC73AB00DE33B8 /* ModelSelectionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F1DF2A29FC73AB00DE33B8 /* ModelSelectionTableViewController.swift */; };
+		45F1DF2D29FC742F00DE33B8 /* SubcategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45F1DF2C29FC742F00DE33B8 /* SubcategoriesTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2798607C246DF6E100770A2F /* test02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test02.jpg; sourceTree = "<group>"; };
+		2798607D246DF6E100770A2F /* test03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test03.jpg; sourceTree = "<group>"; };
+		2798607E246DF6E100770A2F /* test07.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test07.jpg; sourceTree = "<group>"; };
+		2798607F246DF6E100770A2F /* test06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test06.jpg; sourceTree = "<group>"; };
+		27986080246DF6E100770A2F /* test04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test04.jpg; sourceTree = "<group>"; };
+		27986081246DF6E100770A2F /* test10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test10.jpg; sourceTree = "<group>"; };
+		27986082246DF6E100770A2F /* test05.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test05.jpg; sourceTree = "<group>"; };
+		27986083246DF6E100770A2F /* test08.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test08.jpg; sourceTree = "<group>"; };
+		27986084246DF6E100770A2F /* test09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test09.jpg; sourceTree = "<group>"; };
+		279860A2246DF88F00770A2F /* test01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test01.jpg; sourceTree = "<group>"; };
+		279860AA246E9A7A00770A2F /* Predictor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Predictor.swift; sourceTree = "<group>"; };
+		27E9D5F8246D946000A384DE /* CoreMLPerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreMLPerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27E9D5FB246D946000A384DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27E9D5FD246D946000A384DE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		27E9D5FF246D946000A384DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27E9D602246D946000A384DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27E9D604246D946500A384DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27E9D607246D946500A384DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27E9D609246D946500A384DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4549EA5F2AEDE9B600209CA4 /* mobileone_s2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mobileone_s2.mlmodel; path = ../../../coreml/mobileone_s2.mlmodel; sourceTree = "<group>"; };
+		454E06DB2B05EB23002B036B /* FasterNet-S.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "FasterNet-S.mlmodel"; path = "../../../coreml/FasterNet-S.mlmodel"; sourceTree = "<group>"; };
+		454E06DD2B05EC68002B036B /* FasterNet-M.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "FasterNet-M.mlmodel"; path = "../../../coreml/FasterNet-M.mlmodel"; sourceTree = "<group>"; };
+		454E06DF2B05EC6D002B036B /* FasterNet-L.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "FasterNet-L.mlmodel"; path = "../../../coreml/FasterNet-L.mlmodel"; sourceTree = "<group>"; };
+		454E06E12B05EE0C002B036B /* FasterNet-T0.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "FasterNet-T0.mlmodel"; path = "../../../coreml/FasterNet-T0.mlmodel"; sourceTree = "<group>"; };
+		454E06E32B05EE0F002B036B /* FasterNet-T1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "FasterNet-T1.mlmodel"; path = "../../../coreml/FasterNet-T1.mlmodel"; sourceTree = "<group>"; };
+		454E06E52B05EE13002B036B /* FasterNet-T2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "FasterNet-T2.mlmodel"; path = "../../../coreml/FasterNet-T2.mlmodel"; sourceTree = "<group>"; };
+		454E06E72B05F13F002B036B /* SwiftFormer_XS.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SwiftFormer_XS.mlmodel; path = ../../../coreml/SwiftFormer_XS.mlmodel; sourceTree = "<group>"; };
+		454E06E92B05F144002B036B /* SwiftFormer_S.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SwiftFormer_S.mlmodel; path = ../../../coreml/SwiftFormer_S.mlmodel; sourceTree = "<group>"; };
+		454E06EB2B05F148002B036B /* SwiftFormer_L3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SwiftFormer_L3.mlmodel; path = ../../../coreml/SwiftFormer_L3.mlmodel; sourceTree = "<group>"; };
+		454E06ED2B05F14F002B036B /* SwiftFormer_L1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = SwiftFormer_L1.mlmodel; path = ../../../coreml/SwiftFormer_L1.mlmodel; sourceTree = "<group>"; };
+		4583D2082AEF2DEC00D0DDBA /* nextvit_base_224x224.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = nextvit_base_224x224.mlmodel; path = ../../../coreml/nextvit_base_224x224.mlmodel; sourceTree = "<group>"; };
+		4583D20A2AF049CB00D0DDBA /* nextvit_small_224x224.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = nextvit_small_224x224.mlmodel; path = ../../../coreml/nextvit_small_224x224.mlmodel; sourceTree = "<group>"; };
+		4583D20C2AF049D400D0DDBA /* nextvit_large_224x224.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = nextvit_large_224x224.mlmodel; path = ../../../coreml/nextvit_large_224x224.mlmodel; sourceTree = "<group>"; };
+		4583D20E2AF049DE00D0DDBA /* mobileone_s0.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mobileone_s0.mlmodel; path = ../../../coreml/mobileone_s0.mlmodel; sourceTree = "<group>"; };
+		4583D2102AF049E200D0DDBA /* mobileone_s1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mobileone_s1.mlmodel; path = ../../../coreml/mobileone_s1.mlmodel; sourceTree = "<group>"; };
+		4583D2122AF049EF00D0DDBA /* mobileone_s3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mobileone_s3.mlmodel; path = ../../../coreml/mobileone_s3.mlmodel; sourceTree = "<group>"; };
+		4583D2142AF04A1200D0DDBA /* efficientformer_l1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = efficientformer_l1.mlmodel; path = ../../../coreml/efficientformer_l1.mlmodel; sourceTree = "<group>"; };
+		4583D2162AF04A1B00D0DDBA /* efficientformer_l3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = efficientformer_l3.mlmodel; path = ../../../coreml/efficientformer_l3.mlmodel; sourceTree = "<group>"; };
+		4583D2182AF04A1F00D0DDBA /* efficientformer_l7.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = efficientformer_l7.mlmodel; path = ../../../coreml/efficientformer_l7.mlmodel; sourceTree = "<group>"; };
+		4583D21A2AF04A3C00D0DDBA /* efficientformerv2_s0.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = efficientformerv2_s0.mlmodel; path = ../../../coreml/efficientformerv2_s0.mlmodel; sourceTree = "<group>"; };
+		4583D21C2AF04A4300D0DDBA /* efficientformerv2_s1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = efficientformerv2_s1.mlmodel; path = ../../../coreml/efficientformerv2_s1.mlmodel; sourceTree = "<group>"; };
+		4583D21E2AF04A4900D0DDBA /* efficientformerv2_s2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = efficientformerv2_s2.mlmodel; path = ../../../coreml/efficientformerv2_s2.mlmodel; sourceTree = "<group>"; };
+		4583D2202AF04A4D00D0DDBA /* efficientformerv2_l.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = efficientformerv2_l.mlmodel; path = ../../../coreml/efficientformerv2_l.mlmodel; sourceTree = "<group>"; };
+		4583D2222AF04A6200D0DDBA /* efficientnet-b0.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "efficientnet-b0.mlmodel"; path = "../../../coreml/efficientnet-b0.mlmodel"; sourceTree = "<group>"; };
+		4583D2242AF04A6C00D0DDBA /* efficientnet-b1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "efficientnet-b1.mlmodel"; path = "../../../coreml/efficientnet-b1.mlmodel"; sourceTree = "<group>"; };
+		4583D2262AF04A7000D0DDBA /* efficientnet-b2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "efficientnet-b2.mlmodel"; path = "../../../coreml/efficientnet-b2.mlmodel"; sourceTree = "<group>"; };
+		4583D2282AF04A7500D0DDBA /* efficientnet-b3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "efficientnet-b3.mlmodel"; path = "../../../coreml/efficientnet-b3.mlmodel"; sourceTree = "<group>"; };
+		4583D22A2AF04A7900D0DDBA /* efficientnet-b4.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "efficientnet-b4.mlmodel"; path = "../../../coreml/efficientnet-b4.mlmodel"; sourceTree = "<group>"; };
+		4583D22C2AF04A7C00D0DDBA /* efficientnet-b5.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "efficientnet-b5.mlmodel"; path = "../../../coreml/efficientnet-b5.mlmodel"; sourceTree = "<group>"; };
+		4583D22E2AF04A8000D0DDBA /* efficientnet-b6.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "efficientnet-b6.mlmodel"; path = "../../../coreml/efficientnet-b6.mlmodel"; sourceTree = "<group>"; };
+		4583D2302AF04A9700D0DDBA /* efficientnet-b7.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "efficientnet-b7.mlmodel"; path = "../../../coreml/efficientnet-b7.mlmodel"; sourceTree = "<group>"; };
+		4583D2322AF04AB200D0DDBA /* efficientnet_v2_l.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = efficientnet_v2_l.mlmodel; path = ../../../coreml/efficientnet_v2_l.mlmodel; sourceTree = "<group>"; };
+		4583D2342AF04AD000D0DDBA /* efficientnet_v2_m.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = efficientnet_v2_m.mlmodel; path = ../../../coreml/efficientnet_v2_m.mlmodel; sourceTree = "<group>"; };
+		4583D2362AF04AD600D0DDBA /* efficientnet_v2_s.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = efficientnet_v2_s.mlmodel; path = ../../../coreml/efficientnet_v2_s.mlmodel; sourceTree = "<group>"; };
+		4583D2382AF04AF000D0DDBA /* mobileone_s4.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mobileone_s4.mlmodel; path = ../../../coreml/mobileone_s4.mlmodel; sourceTree = "<group>"; };
+		4583D23A2AF04B0800D0DDBA /* mobilenet_v1.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mobilenet_v1.mlmodel; path = ../../../coreml/mobilenet_v1.mlmodel; sourceTree = "<group>"; };
+		4583D23C2AF04B2100D0DDBA /* mobilenet_v2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mobilenet_v2.mlmodel; path = ../../../coreml/mobilenet_v2.mlmodel; sourceTree = "<group>"; };
+		4583D23E2AF04B5000D0DDBA /* mobilenet_v3_small.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mobilenet_v3_small.mlmodel; path = ../../../coreml/mobilenet_v3_small.mlmodel; sourceTree = "<group>"; };
+		4583D2402AF04B5500D0DDBA /* mobilenet_v3_large.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = mobilenet_v3_large.mlmodel; path = ../../../coreml/mobilenet_v3_large.mlmodel; sourceTree = "<group>"; };
+		4583D2422AF04B6E00D0DDBA /* Mobilevit-s.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "Mobilevit-s.mlmodel"; path = "../../../coreml/Mobilevit-s.mlmodel"; sourceTree = "<group>"; };
+		4583D2442AF04B7300D0DDBA /* Mobilevit-xs.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "Mobilevit-xs.mlmodel"; path = "../../../coreml/Mobilevit-xs.mlmodel"; sourceTree = "<group>"; };
+		4583D2462AF04B7900D0DDBA /* Mobilevit-xxs.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "Mobilevit-xxs.mlmodel"; path = "../../../coreml/Mobilevit-xxs.mlmodel"; sourceTree = "<group>"; };
+		4583D2482AF04B8000D0DDBA /* Mobilevit_v2_050.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Mobilevit_v2_050.mlmodel; path = ../../../coreml/Mobilevit_v2_050.mlmodel; sourceTree = "<group>"; };
+		4583D24A2AF04B8500D0DDBA /* Mobilevit_v2_100.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Mobilevit_v2_100.mlmodel; path = ../../../coreml/Mobilevit_v2_100.mlmodel; sourceTree = "<group>"; };
+		4583D24C2AF04B8900D0DDBA /* Mobilevit_v2_150.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Mobilevit_v2_150.mlmodel; path = ../../../coreml/Mobilevit_v2_150.mlmodel; sourceTree = "<group>"; };
+		45F1DF2A29FC73AB00DE33B8 /* ModelSelectionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelSelectionTableViewController.swift; sourceTree = "<group>"; };
+		45F1DF2C29FC742F00DE33B8 /* SubcategoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubcategoriesTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27E9D5F5246D946000A384DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454E06DA2AFD7518002B036B /* GCDWebServer in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27986049246DEC9200770A2F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4583D20A2AF049CB00D0DDBA /* nextvit_small_224x224.mlmodel */,
+				4583D2082AEF2DEC00D0DDBA /* nextvit_base_224x224.mlmodel */,
+				4583D20C2AF049D400D0DDBA /* nextvit_large_224x224.mlmodel */,
+				4583D2142AF04A1200D0DDBA /* efficientformer_l1.mlmodel */,
+				4583D2162AF04A1B00D0DDBA /* efficientformer_l3.mlmodel */,
+				4583D2182AF04A1F00D0DDBA /* efficientformer_l7.mlmodel */,
+				4583D21A2AF04A3C00D0DDBA /* efficientformerv2_s0.mlmodel */,
+				4583D21C2AF04A4300D0DDBA /* efficientformerv2_s1.mlmodel */,
+				4583D21E2AF04A4900D0DDBA /* efficientformerv2_s2.mlmodel */,
+				4583D2202AF04A4D00D0DDBA /* efficientformerv2_l.mlmodel */,
+				4583D2222AF04A6200D0DDBA /* efficientnet-b0.mlmodel */,
+				4583D2242AF04A6C00D0DDBA /* efficientnet-b1.mlmodel */,
+				4583D2262AF04A7000D0DDBA /* efficientnet-b2.mlmodel */,
+				4583D2282AF04A7500D0DDBA /* efficientnet-b3.mlmodel */,
+				4583D22A2AF04A7900D0DDBA /* efficientnet-b4.mlmodel */,
+				4583D22C2AF04A7C00D0DDBA /* efficientnet-b5.mlmodel */,
+				4583D22E2AF04A8000D0DDBA /* efficientnet-b6.mlmodel */,
+				4583D2302AF04A9700D0DDBA /* efficientnet-b7.mlmodel */,
+				4583D2362AF04AD600D0DDBA /* efficientnet_v2_s.mlmodel */,
+				4583D2342AF04AD000D0DDBA /* efficientnet_v2_m.mlmodel */,
+				4583D2322AF04AB200D0DDBA /* efficientnet_v2_l.mlmodel */,
+				4583D23A2AF04B0800D0DDBA /* mobilenet_v1.mlmodel */,
+				4583D23C2AF04B2100D0DDBA /* mobilenet_v2.mlmodel */,
+				4583D23E2AF04B5000D0DDBA /* mobilenet_v3_small.mlmodel */,
+				4583D2402AF04B5500D0DDBA /* mobilenet_v3_large.mlmodel */,
+				4583D2462AF04B7900D0DDBA /* Mobilevit-xxs.mlmodel */,
+				4583D2442AF04B7300D0DDBA /* Mobilevit-xs.mlmodel */,
+				4583D2422AF04B6E00D0DDBA /* Mobilevit-s.mlmodel */,
+				4583D2482AF04B8000D0DDBA /* Mobilevit_v2_050.mlmodel */,
+				4583D24A2AF04B8500D0DDBA /* Mobilevit_v2_100.mlmodel */,
+				4583D24C2AF04B8900D0DDBA /* Mobilevit_v2_150.mlmodel */,
+				4583D20E2AF049DE00D0DDBA /* mobileone_s0.mlmodel */,
+				4583D2102AF049E200D0DDBA /* mobileone_s1.mlmodel */,
+				4549EA5F2AEDE9B600209CA4 /* mobileone_s2.mlmodel */,
+				4583D2122AF049EF00D0DDBA /* mobileone_s3.mlmodel */,
+				4583D2382AF04AF000D0DDBA /* mobileone_s4.mlmodel */,
+				454E06E12B05EE0C002B036B /* FasterNet-T0.mlmodel */,
+				454E06E32B05EE0F002B036B /* FasterNet-T1.mlmodel */,
+				454E06E52B05EE13002B036B /* FasterNet-T2.mlmodel */,
+				454E06DB2B05EB23002B036B /* FasterNet-S.mlmodel */,
+				454E06DD2B05EC68002B036B /* FasterNet-M.mlmodel */,
+				454E06DF2B05EC6D002B036B /* FasterNet-L.mlmodel */,
+				454E06E72B05F13F002B036B /* SwiftFormer_XS.mlmodel */,
+				454E06E92B05F144002B036B /* SwiftFormer_S.mlmodel */,
+				454E06ED2B05F14F002B036B /* SwiftFormer_L1.mlmodel */,
+				454E06EB2B05F148002B036B /* SwiftFormer_L3.mlmodel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		27986064246DF6E100770A2F /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				2798607B246DF6E100770A2F /* 1000 */,
+			);
+			path = custom;
+			sourceTree = "<group>";
+		};
+		2798607B246DF6E100770A2F /* 1000 */ = {
+			isa = PBXGroup;
+			children = (
+				279860A2246DF88F00770A2F /* test01.jpg */,
+				2798607C246DF6E100770A2F /* test02.jpg */,
+				2798607D246DF6E100770A2F /* test03.jpg */,
+				2798607E246DF6E100770A2F /* test07.jpg */,
+				2798607F246DF6E100770A2F /* test06.jpg */,
+				27986080246DF6E100770A2F /* test04.jpg */,
+				27986081246DF6E100770A2F /* test10.jpg */,
+				27986082246DF6E100770A2F /* test05.jpg */,
+				27986083246DF6E100770A2F /* test08.jpg */,
+				27986084246DF6E100770A2F /* test09.jpg */,
+			);
+			path = 1000;
+			sourceTree = "<group>";
+		};
+		27E9D5EF246D946000A384DE = {
+			isa = PBXGroup;
+			children = (
+				27986049246DEC9200770A2F /* Models */,
+				27E9D60F246D965A00A384DE /* Data */,
+				27E9D5FA246D946000A384DE /* CoreMLPerformance */,
+				27E9D5F9246D946000A384DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27E9D5F9246D946000A384DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27E9D5F8246D946000A384DE /* CoreMLPerformance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27E9D5FA246D946000A384DE /* CoreMLPerformance */ = {
+			isa = PBXGroup;
+			children = (
+				27E9D5FB246D946000A384DE /* AppDelegate.swift */,
+				27E9D5FD246D946000A384DE /* SceneDelegate.swift */,
+				27E9D5FF246D946000A384DE /* ViewController.swift */,
+				27E9D601246D946000A384DE /* Main.storyboard */,
+				27E9D604246D946500A384DE /* Assets.xcassets */,
+				27E9D606246D946500A384DE /* LaunchScreen.storyboard */,
+				27E9D609246D946500A384DE /* Info.plist */,
+				279860AA246E9A7A00770A2F /* Predictor.swift */,
+				45F1DF2A29FC73AB00DE33B8 /* ModelSelectionTableViewController.swift */,
+				45F1DF2C29FC742F00DE33B8 /* SubcategoriesTableViewController.swift */,
+			);
+			path = CoreMLPerformance;
+			sourceTree = "<group>";
+		};
+		27E9D60F246D965A00A384DE /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				27986064246DF6E100770A2F /* custom */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27E9D5F7246D946000A384DE /* CoreMLPerformance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27E9D60C246D946500A384DE /* Build configuration list for PBXNativeTarget "CoreMLPerformance" */;
+			buildPhases = (
+				27E9D5F4246D946000A384DE /* Sources */,
+				27E9D5F5246D946000A384DE /* Frameworks */,
+				27E9D5F6246D946000A384DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreMLPerformance;
+			packageProductDependencies = (
+				454E06D92AFD7518002B036B /* GCDWebServer */,
+			);
+			productName = CoreMLPerformance;
+			productReference = 27E9D5F8246D946000A384DE /* CoreMLPerformance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27E9D5F0246D946000A384DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Vladimir Chernykh";
+				TargetAttributes = {
+					27E9D5F7246D946000A384DE = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 27E9D5F3246D946000A384DE /* Build configuration list for PBXProject "CoreMLPerformance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27E9D5EF246D946000A384DE;
+			packageReferences = (
+				454E06D82AFD7517002B036B /* XCRemoteSwiftPackageReference "GCDWebServer" */,
+			);
+			productRefGroup = 27E9D5F9246D946000A384DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27E9D5F7246D946000A384DE /* CoreMLPerformance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27E9D5F6246D946000A384DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279860A0246DF6E100770A2F /* test08.jpg in Resources */,
+				279860A1246DF6E100770A2F /* test09.jpg in Resources */,
+				27E9D608246D946500A384DE /* LaunchScreen.storyboard in Resources */,
+				27E9D605246D946500A384DE /* Assets.xcassets in Resources */,
+				2798609F246DF6E100770A2F /* test05.jpg in Resources */,
+				2798609D246DF6E100770A2F /* test04.jpg in Resources */,
+				279860A3246DF88F00770A2F /* test01.jpg in Resources */,
+				27986099246DF6E100770A2F /* test02.jpg in Resources */,
+				27E9D603246D946000A384DE /* Main.storyboard in Resources */,
+				2798609A246DF6E100770A2F /* test03.jpg in Resources */,
+				2798609C246DF6E100770A2F /* test06.jpg in Resources */,
+				2798609E246DF6E100770A2F /* test10.jpg in Resources */,
+				2798609B246DF6E100770A2F /* test07.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27E9D5F4246D946000A384DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454E06E42B05EE0F002B036B /* FasterNet-T1.mlmodel in Sources */,
+				4583D2332AF04AB200D0DDBA /* efficientnet_v2_l.mlmodel in Sources */,
+				454E06EC2B05F148002B036B /* SwiftFormer_L3.mlmodel in Sources */,
+				4583D2472AF04B7900D0DDBA /* Mobilevit-xxs.mlmodel in Sources */,
+				45F1DF2D29FC742F00DE33B8 /* SubcategoriesTableViewController.swift in Sources */,
+				4583D21F2AF04A4900D0DDBA /* efficientformerv2_s2.mlmodel in Sources */,
+				4583D21D2AF04A4300D0DDBA /* efficientformerv2_s1.mlmodel in Sources */,
+				4583D2132AF049EF00D0DDBA /* mobileone_s3.mlmodel in Sources */,
+				4583D21B2AF04A3C00D0DDBA /* efficientformerv2_s0.mlmodel in Sources */,
+				4583D2292AF04A7500D0DDBA /* efficientnet-b3.mlmodel in Sources */,
+				4583D2112AF049E200D0DDBA /* mobileone_s1.mlmodel in Sources */,
+				4583D23D2AF04B2100D0DDBA /* mobilenet_v2.mlmodel in Sources */,
+				4583D2232AF04A6200D0DDBA /* efficientnet-b0.mlmodel in Sources */,
+				4583D2252AF04A6C00D0DDBA /* efficientnet-b1.mlmodel in Sources */,
+				4583D2452AF04B7300D0DDBA /* Mobilevit-xs.mlmodel in Sources */,
+				4583D2412AF04B5500D0DDBA /* mobilenet_v3_large.mlmodel in Sources */,
+				45F1DF2B29FC73AB00DE33B8 /* ModelSelectionTableViewController.swift in Sources */,
+				4583D2172AF04A1B00D0DDBA /* efficientformer_l3.mlmodel in Sources */,
+				4583D2392AF04AF000D0DDBA /* mobileone_s4.mlmodel in Sources */,
+				454E06E22B05EE0C002B036B /* FasterNet-T0.mlmodel in Sources */,
+				4583D22F2AF04A8000D0DDBA /* efficientnet-b6.mlmodel in Sources */,
+				27E9D600246D946000A384DE /* ViewController.swift in Sources */,
+				454E06DC2B05EB23002B036B /* FasterNet-S.mlmodel in Sources */,
+				454E06E82B05F13F002B036B /* SwiftFormer_XS.mlmodel in Sources */,
+				4583D23B2AF04B0800D0DDBA /* mobilenet_v1.mlmodel in Sources */,
+				27E9D5FC246D946000A384DE /* AppDelegate.swift in Sources */,
+				454E06EA2B05F144002B036B /* SwiftFormer_S.mlmodel in Sources */,
+				4583D24B2AF04B8500D0DDBA /* Mobilevit_v2_100.mlmodel in Sources */,
+				4583D20D2AF049D400D0DDBA /* nextvit_large_224x224.mlmodel in Sources */,
+				4583D20B2AF049CC00D0DDBA /* nextvit_small_224x224.mlmodel in Sources */,
+				454E06E62B05EE13002B036B /* FasterNet-T2.mlmodel in Sources */,
+				4583D22D2AF04A7C00D0DDBA /* efficientnet-b5.mlmodel in Sources */,
+				4583D2272AF04A7000D0DDBA /* efficientnet-b2.mlmodel in Sources */,
+				4583D2152AF04A1200D0DDBA /* efficientformer_l1.mlmodel in Sources */,
+				4549EA602AEDE9B600209CA4 /* mobileone_s2.mlmodel in Sources */,
+				27E9D5FE246D946000A384DE /* SceneDelegate.swift in Sources */,
+				4583D22B2AF04A7900D0DDBA /* efficientnet-b4.mlmodel in Sources */,
+				4583D2192AF04A1F00D0DDBA /* efficientformer_l7.mlmodel in Sources */,
+				4583D24D2AF04B8900D0DDBA /* Mobilevit_v2_150.mlmodel in Sources */,
+				4583D2492AF04B8000D0DDBA /* Mobilevit_v2_050.mlmodel in Sources */,
+				279860AB246E9A7A00770A2F /* Predictor.swift in Sources */,
+				4583D20F2AF049DE00D0DDBA /* mobileone_s0.mlmodel in Sources */,
+				454E06EE2B05F14F002B036B /* SwiftFormer_L1.mlmodel in Sources */,
+				4583D2432AF04B6E00D0DDBA /* Mobilevit-s.mlmodel in Sources */,
+				454E06E02B05EC6D002B036B /* FasterNet-L.mlmodel in Sources */,
+				454E06DE2B05EC68002B036B /* FasterNet-M.mlmodel in Sources */,
+				4583D2312AF04A9700D0DDBA /* efficientnet-b7.mlmodel in Sources */,
+				4583D23F2AF04B5000D0DDBA /* mobilenet_v3_small.mlmodel in Sources */,
+				4583D2212AF04A4D00D0DDBA /* efficientformerv2_l.mlmodel in Sources */,
+				4583D2352AF04AD000D0DDBA /* efficientnet_v2_m.mlmodel in Sources */,
+				4583D2092AEF2DEC00D0DDBA /* nextvit_base_224x224.mlmodel in Sources */,
+				4583D2372AF04AD600D0DDBA /* efficientnet_v2_s.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27E9D601246D946000A384DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E9D602246D946000A384DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27E9D606246D946500A384DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27E9D607246D946500A384DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27E9D60A246D946500A384DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27E9D60B246D946500A384DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27E9D60D246D946500A384DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCY6TCL45L;
+				INFOPLIST_FILE = CoreMLPerformance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jiarui.CoreMLPerformance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		27E9D60E246D946500A384DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RCY6TCL45L;
+				INFOPLIST_FILE = CoreMLPerformance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jiarui.CoreMLPerformance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27E9D5F3246D946000A384DE /* Build configuration list for PBXProject "CoreMLPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E9D60A246D946500A384DE /* Debug */,
+				27E9D60B246D946500A384DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E9D60C246D946500A384DE /* Build configuration list for PBXNativeTarget "CoreMLPerformance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E9D60D246D946500A384DE /* Debug */,
+				27E9D60E246D946500A384DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		454E06D82AFD7517002B036B /* XCRemoteSwiftPackageReference "GCDWebServer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yene/GCDWebServer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		454E06D92AFD7518002B036B /* GCDWebServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 454E06D82AFD7517002B036B /* XCRemoteSwiftPackageReference "GCDWebServer" */;
+			productName = GCDWebServer;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 27E9D5F0246D946000A384DE /* Project object */;
+}
