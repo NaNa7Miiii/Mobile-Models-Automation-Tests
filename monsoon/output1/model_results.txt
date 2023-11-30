@@ -1,0 +1,1 @@
+Model: mobilenet_v1 - Average energy: .034 mAh, Average power: 2742.451 mW

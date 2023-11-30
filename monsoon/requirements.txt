@@ -1,0 +1,10 @@
+pyusb
+libusb1
+matplotlib~=3.8.0
+numpy~=1.26.0
+pandas
+scipy
+fire~=0.5.0
+requests
+usb~=0.0.83.dev0
+requests~=2.31.0
